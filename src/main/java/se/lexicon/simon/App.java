@@ -8,8 +8,9 @@ public class App {
 
         Scanner scanner = new Scanner(System.in);
 
-
-        while (true) {
+        // Do-While
+        // Code runs atleast ones.
+        do {
             System.out.println("How old are you?");
 
             int age = scanner.nextInt();
@@ -20,27 +21,8 @@ public class App {
                 System.out.println("you are a child");
                 break;
             }
+        } while (false);
 
-        }
 
     }
 }
-
-/*
-
-boolean isAdult = true;
-
-while(isAdult){
-        System.out.println("How old are you?");
-
-        int age = scanner.nextInt();
-
-        if (age >= 18) {
-            System.out.println("you are an adult!");
-        } else {
-            System.out.println("you are a child");
-            isAdult = false;
-        }
-
-        }
- */
